@@ -1,0 +1,45 @@
+﻿ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Find Missing Number</title>
+    <script type="text/javascript" src="myJS.js"></script>
+</head>
+<body>
+
+    <div>
+
+        <h1>Select a text file to find missing number</h1>
+        <p>
+            1) Each new line will contain a set of sequential numbers with one number missing.<br />
+            2) Each series will be comma delimited and in a random order.
+        </p>
+        <div>
+            Select a text file:
+            <input type="file" id="textfile" onchange="find()" />
+        </div>
+        <div id="result" style="display:none">
+            <table style="width:90%" border="1">
+                <tr><td style="width:50%">Input:</td>
+                <td>Output:</td></tr>
+                <tr>
+                    <td>
+                        <div id="showfile">
+                        </div>
+                    </td>
+                    <td>
+                        <div id="showmissing"></div>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </div">
+    </div>
+    
+
+</body>
+</html>
